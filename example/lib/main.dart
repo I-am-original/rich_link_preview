@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:rich_link_preview/rich_link_preview.dart';
+// ignore: implementation_imports
+import 'package:rich_link_preview/src/rich_link_preview.dart';
 
 void main() => runApp(RichLinkPreviewExample());
 
@@ -45,7 +46,7 @@ class _RichLinkPreviewExampleState extends State<RichLinkPreviewExample> {
                   Expanded(
                       child: RichLinkPreview(
                           link:
-                              'https://ourland.hk/detail/72e1aeaf-360b-4f45-a528-ef1c5e4d803c',
+                              'https://www.instagram.com/p/B1Rde-4g_C4/?igshid=dvpcvjhf2e8o',
                           appendToLink: true,
                           launchFromLink: true)),
                   RichLinkPreview(
